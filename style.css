@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(238, 84, 130);
+}
+
+.imagemteste {
+  filter: invert(100%);
+}
+
+.imagemteste:hover{
+    filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg) brightness(96%) contrast(110%);
+
+}
