@@ -1,7 +1,16 @@
 body {
-  background-color: rgb(238, 84, 130);
+  background-color: rgb(255, 255, 255);
 }
 
+#icon__uninassau {
+  width: 200px;
+}
+#icon__etepam {
+  width: 200px;
+}
+#icon__alura {
+  width: 200px;
+}
 .imagemteste {
   filter: invert(100%);
 }
