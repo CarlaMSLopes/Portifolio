@@ -77,12 +77,23 @@ body {
 .text button:hover {
   background-color: var(--hover-color);
 }
-
+.linksContato {
+  width: 100%;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+}
+.lista__linksContato li a:hover {
+  color: var(--hover-color);
+ }
+ 
 .icon__linksContatos {
   width: 32px;
 }
 .icon__linksContatos:hover {
-  filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg) brightness(96%) contrast(110%);
+  filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg)
+    brightness(96%) contrast(110%);
 }
 #perfil {
   width: 448px;
