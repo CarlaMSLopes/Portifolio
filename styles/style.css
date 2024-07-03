@@ -18,38 +18,24 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  margin: 0 128px;
+  margin: 0 144px;
   padding-top: 3%;
   background-color: var(--base-light);
-  gap: 16px;
-  transition: .5s;
-}
-
-/* CABECALHO */
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  transition: 0.5s;
 }
 
 /* LOGO */
-.logo {
-  gap: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .logo img {
-  width: 50px;
+  width: 24px;
 }
 
 .logo h1 {
   white-space: nowrap;
   text-align: center;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
 }
 
 /* NAVBAR */
@@ -58,45 +44,49 @@ header {
 }
 
 .navbar ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
 }
 
-/* DARK - LIGHT MODE */
-.trilho {
-  width: 64px;
-  height: 32px;
-  border-radius: 32px;
+/* HERO */
+.text h1 {
+  font-family: var(--font-tittle);
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--base-dark);
+}
+.text p {
+  font-family: var(--font-text);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--base-dark);
+}
+.text button {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-light);
+  width: 208px;
+  height: 56px;
+  border-radius: 16px;
   background-color: var(--base-dark);
-  position: relative;
   cursor: pointer;
 }
-.trilho .indicador {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  transform: scale(0.8);
-  background-color: var(--base-light);
-  position: absolute;
-  left: 0;
-  transition: .5s;
-}
-.indicador:hover {
+.text button:hover {
   background-color: var(--hover-color);
 }
-.trilho.dark .indicador {
-  left: 32px;
-  background-color: var(--base-dark);
-}
-.trilho.dark{
-  background-color: var(--base-light);
-}
-body.dark{
-  background-color: var(--base-dark);
-}
 
+.icon__linksContatos {
+  width: 32px;
+}
+.icon__linksContatos:hover {
+  filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg) brightness(96%) contrast(110%);
+}
+#perfil {
+  width: 448px;
+}
 #icon__uninassau {
   width: 200px;
 }

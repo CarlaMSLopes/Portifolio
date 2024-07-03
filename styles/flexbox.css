@@ -1,0 +1,52 @@
+/* PÁGINA DE ESTILIZAÇÃO DO FLEXBOX */
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* CABECALHO */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/* NAVBAR */
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.lista__linksContato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
