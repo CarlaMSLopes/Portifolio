@@ -211,3 +211,7 @@ body {
   filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg)
     brightness(96%) contrast(110%);
 }
+
+div {
+  display: block;
+}
