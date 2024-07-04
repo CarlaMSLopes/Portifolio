@@ -6,6 +6,7 @@
 :root {
   --base-dark: black;
   --base-light: #fbe5e5;
+  --base-lesslight: #fcdcec;
   --hover-color: #ff0082;
   --font-tittle: "Playwrite DE Grund", cursive;
   --font-text: "Nunito", sans-serif;
@@ -40,7 +41,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  width: 60%;
+  width: 70%;
 }
 
 .navbar ul {
@@ -48,42 +49,112 @@ body {
   font-size: 16px;
   font-weight: 700;
   color: var(--base-dark);
+  letter-spacing: 2px;
 }
 
 /* HERO */
 
-.cta__texto h1{
+.cta__texto h1 {
   font-family: var(--font-tittle);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.3em;
   color: var(--base-dark);
+  letter-spacing: 2px;
 }
-.cta__texto p{
+.cta__texto p {
   font-family: var(--font-text);
   font-size: 24px;
   font-weight: 700;
   line-height: 1.3em;
   color: var(--base-dark);
+  letter-spacing: 2px;
 }
 
+.linksContatos ul {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 2px;
+}
+.linksContatos ul li a:hover {
+  color: var(--hover-color);
+}
+
+.linksContatos img {
+  width: 24px;
+}
 .heroImagem {
   width: 448px;
 }
 
-
-
-
-.icon__linksContatos {
-  width: 32px;
+/* SOBRE MIM */
+.sobre {
+  width: 100%;
 }
-.icon__linksContatos:hover {
-  filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg)
-    brightness(96%) contrast(110%);
+.sobre h1 {
+  font-family: var(--font-tittle);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 2px;
+  text-align: center;
 }
-#perfil {
-  width: 448px;
+.sobre p {
+  font-family: var(--font-text);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--base-dark);
+  line-height: 1.3em;
+  letter-spacing: 2px;
+  text-align: center;
 }
+
+/* SKILLS E HOBBIES */
+.skills__hobbies__section {
+  width: 100%;
+}
+.skillHobbies {
+  width: 100%;
+}
+.skillHobbies__titulo h1 {
+  font-family: var(--font-tittle);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+}
+.skillHobbies__cards {
+  width: 100%;
+}
+.skillHobbies__cards div {
+  background-color: var(--base-light);
+  border: solid 1px var(--base-dark);
+  border-radius: 8px;
+  width: 152px;
+  height: 152px;
+}
+.skillHobbies__cards div h2 {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: center;
+}
+.icon__hard {
+  width: 48px;
+}
+.icon__soft {
+  width: 56px;
+}
+.icon__hobbies {
+  width: 48px;
+}
+
+/* FORMACAO */
+
 #icon__uninassau {
   width: 200px;
 }
