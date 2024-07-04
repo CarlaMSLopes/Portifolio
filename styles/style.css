@@ -6,7 +6,7 @@
 :root {
   --base-dark: black;
   --base-light: #fbe5e5;
-  --base-lesslight: #fcdcec;
+  --base-lesslight: #FCECFB;
   --hover-color: #ff0082;
   --font-tittle: "Playwrite DE Grund", cursive;
   --font-text: "Nunito", sans-serif;
@@ -130,10 +130,11 @@ body {
 }
 .skillHobbies__cards div {
   background-color: var(--base-light);
-  border: solid 1px var(--base-dark);
+  /* border: solid 1px var(--base-dark); */
   border-radius: 8px;
   width: 152px;
   height: 152px;
+  background-color: var(--base-lesslight);
 }
 .skillHobbies__cards div h2 {
   font-family: var(--font-text);
@@ -154,12 +155,50 @@ body {
 }
 
 /* FORMACAO */
-
+.formacaoAcademica {
+  width: 100%;
+}
+.formacaoAcademica h1 {
+  font-family: var(--font-tittle);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+}
+.formacaoAcademica__cards {
+  width: 100%;
+}
+.formacaoAcademica__cards div h1 {
+  font-family: var(--font-tittle);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: center;
+}
+.formacaoAcademica__cards div h2 {
+  font-family: var(--font-tittle);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: center;
+}
+.formacaoAcademica__cards div {
+  background-color: var(--base-light);
+  /* border: solid 1px var(--base-dark); */
+  border-radius: 8px;
+  width: 304px;
+  height: 304px;
+  padding: 2%;
+  background-color: var(--base-lesslight);
+  line-height: 1.3em;
+}
 #icon__uninassau {
-  width: 200px;
+  width: 210px;
 }
 #icon__etepam {
-  width: 200px;
+  width: 120px;
 }
 #icon__alura {
   width: 200px;
