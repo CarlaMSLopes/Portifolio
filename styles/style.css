@@ -51,43 +51,29 @@ body {
 }
 
 /* HERO */
-.text h1 {
+
+.cta__texto h1{
   font-family: var(--font-tittle);
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.3em;
   color: var(--base-dark);
 }
-.text p {
+.cta__texto p{
   font-family: var(--font-text);
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.3em;
   color: var(--base-dark);
 }
-.text button {
-  font-family: var(--font-text);
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--base-light);
-  width: 208px;
-  height: 56px;
-  border-radius: 16px;
-  background-color: var(--base-dark);
-  cursor: pointer;
+
+.heroImagem {
+  width: 448px;
 }
-.text button:hover {
-  background-color: var(--hover-color);
-}
-.linksContato {
-  width: 100%;
-  font-family: var(--font-text);
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--base-dark);
-}
-.lista__linksContato li a:hover {
-  color: var(--hover-color);
- }
- 
+
+
+
+
 .icon__linksContatos {
   width: 32px;
 }

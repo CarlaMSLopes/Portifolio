@@ -2,7 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 64px;
 }
 
 /* CABECALHO */
@@ -36,26 +36,28 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
 }
 
-.text {
+.cta {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  gap: 24px;
-  padding-top: 2%;
+  gap: 40px;
+  width: 80%;
+}
+.cta__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
 }
 
-.lista__linksContato {
+.linksContatos ul {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.lista__linksContato li a{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 8px;
 }
