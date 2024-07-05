@@ -403,20 +403,19 @@ main {
 .botaoEnviar {
   width: 200px; 
   height: 48px; 
-  border: 2px solid var(--base-lesslight);
   border-radius: 8px;
   font-family: var(--font-text);
   font-weight: 700;
   font-size: 16px; 
   line-height: 1.3em; 
-  color:var(--base-dark);
-  background-color: white;
+  color:var(--base-light);
+  background-color: var(--base-dark);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.botaoEnviar:hover {
-  border: solid 2px var(--hover-color);
-  background-color: var(--base-light);
+.botaoEnviar:hover {  
+  background-color: var(--hover-color);
+  color: var(--base-dark);
 }
 
 /* RODAPÉ */
@@ -433,6 +432,21 @@ footer h1 {
   text-align: center;
   padding: 2%;
 }
+
+footer div .icons {
+  width: 24px;
+  margin-right: 8px;
+}
+
+footer div .icons:hover {
+  filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg)
+  brightness(96%) contrast(110%);
+}
+
+footer a:hover{
+  color: var(--hover-color);
+}
+
 /* Separadores */
 hr {
   border-top: 1px solid rgb(230, 205, 222);

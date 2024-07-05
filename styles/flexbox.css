@@ -49,7 +49,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 96px;
+  gap: 128px;
   width: 80%;
 }
 
@@ -222,4 +222,13 @@ header {
   justify-content: center;
   align-items: start;
   gap: 8px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 128px;
 }
