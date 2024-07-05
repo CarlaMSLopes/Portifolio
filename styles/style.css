@@ -457,12 +457,52 @@ hr {
   width: 100%;
 }
 
+/* Sobre Créditos */
+.sobreCreditos {
+  width: 100%;
+}
+.sobreCreditos h1 {
+  font-family: var(--font-tittle);
+  font-weight: 600;
+  font-size: 24px; 
+  line-height: 1.5em; 
+  color: var(--base-dark);
+  padding-top: 2%;
+}
 
+.sobreCreditos p {
+  font-family: var(--font-text);
+  font-weight: 600;
+  font-size: 14px; 
+  line-height: 1.5em; 
+  color: var(--base-dark);
+  letter-spacing: 2px;
+  padding: 0;
+}
 
+.linkIcone:hover {
+  color: var(--hover-color);
+}
 
+.botaoVoltar {
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 16px; 
+  background-color: var(--base-dark);
+padding: 16px 24px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
 
+.botaoVoltar:hover {
+  background-color: var(--hover-color);
+}
 
-
+.botaoEnviar a:hover {
+  color: white !important;
+}
 
 /* .imagemteste {
   filter: invert(100%);
