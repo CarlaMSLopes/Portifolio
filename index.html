@@ -1,280 +1,394 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/code-pink.ico" />
+    <title>Carla Lopes</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/flexbox.css" />
+    <link rel="stylesheet" href="/styles/darkMode.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="/assets/code-pink.ico" />
-  <title>Carla Lopes</title>
-  <link rel="stylesheet" href="/styles/reset.css" />
-  <link rel="stylesheet" href="/styles/style.css" />
-  <link rel="stylesheet" href="/styles/flexbox.css">
-  <link rel="stylesheet" href="/styles/darkMode.css">
-</head>
-
-<body>
-  <!-- CABECALHO -->
-  <header>
-    <div class="logo">
-      <img src="/assets/code.svg" class="iconImg"
-        alt="Logo, feita com a junção de dois caracteres de maior quê e menor quê, separados por uma barra. Geralmente associado a html." />
-      <h1>Carla Lopes</h1>
-    </div>
-    <div class="navbar">
-      <ul>
-        <li><a href="">Sobre mim</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">Hobbies</a></li>
-        <li><a href="">Formação</a></li>
-        <li><a href=""></a>Projetos</li>
-        <li>
-          <a href="mailto:seuemail@exemplo.com">carlalopes613@gmail.com</a>
-        </li>
-        <div class="trilho" id="trilho">
-          <div class="indicador"></div>
-        </div>
-      </ul>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <section class="hero">
-    <section class="cta">
-      <div class="cta__texto">
-        <h1>Olá, meu nome é Carla Lopes <br>e sou desenvolvedora web</h1>
-        <p>
-          Atualmente, estou cursando ciência da computação e participando <br>do
-          projeto Oracle ONE na Alura.
-        </p>
+  <body>
+    <!-- CABECALHO -->
+    <header>
+      <div class="logo">
+        <img
+          src="/assets/code.svg"
+          class="iconImg" id="iconImg"
+          alt="Logo, feita com a junção de dois caracteres de maior quê e menor quê, separados por uma barra. Geralmente associado a html."
+        />
+        <h1 class="logo_h1" id="logo_h1">Carla Lopes</h1>
       </div>
-      <div class="linksContatos">
+      <div class="navbar">
         <ul>
-          <li><a href="https://github.com/CarlaMSLopes" class="botao__link"><img src="/assets/link.png"
-                class="icon__linksContatos" alt="Ícone do github">GITHUB</a></li>
-          <li>
-            <a href="https://www.linkedin.com/in/carla-lopes-lopes/" class="botao__link"><img src="/assets/link.png"
-                class="icon__linksContatos" alt="Ícone do linkedin">LINKEDIN</a>
-          </li>
-          <li>
-            <a href="https://web.whatsapp.com/send?phone=5581986887403" class="botao__link"><img src="/assets/link.png"
-                class="icon__linksContatos" alt="Ícone do whatsapp">WHATSAPP</a>
-          </li>
-          <li>
-            <a href="https://web.whatsapp.com/send?phone=5581986887403" class="botao__link"><img src="/assets/link.png"
-                class="icon__linksContatos" alt="Ícone de download">CURRÍCULO</a>
-          </li>
+          <li><a href="">Sobre mim</a></li>
+          <li><a href="">Skills</a></li>
+          <li><a href="">Hobbies</a></li>
+          <li><a href="">Formação</a></li>
+          <li><a href=""></a>Projetos</li>
+          <div class="trilho" id="trilho">
+            <div class="indicador"></div>
+          </div>
         </ul>
       </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <section class="cta">
+        <div class="cta__texto">
+          <h1>Olá, meu nome é Carla Lopes <br />e sou desenvolvedora web</h1>
+          <p>
+            Atualmente, estou cursando ciência da computação e participando
+            <br />do projeto Oracle ONE na Alura.
+          </p>
+        </div>
+        <div class="linksContatos">
+          <ul>
+            <li>
+              <a href="https://github.com/CarlaMSLopes" class="botao__link"
+                ><img
+                  src="/assets/link.png"
+                  class="icon__linksContatos"
+                  alt="Ícone do github"
+                />GITHUB</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/carla-lopes-lopes/"
+                class="botao__link"
+                ><img
+                  src="/assets/link.png"
+                  class="icon__linksContatos"
+                  alt="Ícone do linkedin"
+                />LINKEDIN</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://web.whatsapp.com/send?phone=5581986887403"
+                class="botao__link"
+                ><img
+                  src="/assets/link.png"
+                  class="icon__linksContatos"
+                  alt="Ícone do whatsapp"
+                />WHATSAPP</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://web.whatsapp.com/send?phone=5581986887403"
+                class="botao__link"
+                ><img
+                  src="/assets/link.png"
+                  class="icon__linksContatos"
+                  alt="Ícone de download"
+                />CURRÍCULO</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="heroImagem">
+        <img
+          src="/assets/perfil.png"
+          alt="foto de carla, mulher branca de cabelos pretos, olhos pretos e com uma camisa amarela."
+        />
+      </section>
     </section>
-    <section class="heroImagem">
-      <img src="/assets/perfil.png"
-        alt="foto de carla, mulher branca de cabelos pretos, olhos pretos e com uma camisa amarela.">
-    </section>
-  </section>
-
-  <!-- SOBRE MIM -->
-  <section class="sobre">
-    <h1>Sobre Mim</h1>
-    <p>
-      Olá! Sou Carla, uma iniciante apaixonada no mundo do desenvolvimento front-end, com a missão de criar experiências
-      de usuário encantadoras.
-    </p>
-    <p>Estou profundamente atraída pela arte e ciência do design de UI, unindo estética e funcionalidade perfeitamente.
-      Minha jornada é alimentada pelo amor pela criação de interfaces visualmente atraentes e intuitivas que cativam e
-      envolvem os usuários.</p>
-    <p>Atualmente aprimorando minhas habilidades em HTML, CSS e JavaScript para construir a base para minha jornada de
-      desenvolvimento front-end. Ansiosa por abraçar novas tecnologias e ficar à frente no mundo dinâmico do
-      desenvolvimento web.</p>
-    <p>Além do código, tenho prazer em explorar o reino das cores, da tipografia e do layout, buscando constantemente
-      inspiração para aprimorar o apelo visual dos produtos digitais.
-      Acredito no poder do aprendizado perpétuo e da curiosidade. Cada desafio é uma oportunidade de crescimento, e
-      estou animada para abraçar a curva de aprendizado que acompanha ser um desenvolvedor iniciante.</p>
-  </section>
-
-  <!-- SKILLS E HOBBIES -->
-  <section class="skills__hobbies__section">
-    <!-- HARD SKILLS -->
-    <section class="skillHobbies">
-      <div class="skillHobbies__titulo">
-        <h1>Hard Skills</h1>
-      </div>
-      <div class="skillHobbies__cards">
-        <div>
-          <img src="/assets/html.svg" class="icon__hard" alt="Html" />
-          <h2>Html</h2>
-        </div>
-        <div>
-          <img src="/assets/css.svg" class="icon__hard" alt="CSS" />
-          <h2>CSS</h2>
-        </div>
-        <div>
-          <img src="/assets/javascript.svg" class="icon__hard" alt="javascript" />
-          <h2>JavaScript</h2>
-        </div>
-        <div>
-          <img src="/assets/react.svg" class="icon__hard" alt="React Js" />
-          <h2>ReactJS</h2>
-        </div>
-        <div>
-          <img src="/assets/mysql.svg" class="icon__hard" alt="MySql" />
-          <h2>MySql</h2>
-        </div>
-        <div>
-          <img src="/assets/node.svg" class="icon__hard" alt="Node Js" />
-          <h2>NodeJs</h2>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOFT SKILLS -->
-    <section class="skillHobbies">
-      <div class="skillHobbies__titulo">
-        <h1>Soft Skills</h1>
-      </div>
-      <div class="skillHobbies__cards">
-        <div>
-          <img src="/assets/assertivo.svg" class="icon__soft" alt="Assertividade" />
-          <h2>Assertividade</h2>
-        </div>
-        <div>
-          <img src="/assets/collaboration.svg" class="icon__soft" alt="Colaboração" />
-          <h2>Colaboração</h2>
-        </div>
-        <div>
-          <img src="/assets/prioritization.svg" class="icon__soft" alt="Organização" />
-          <h2>Organização</h2>
-        </div>
-        <div>
-          <img src="/assets/resourceful.svg" class="icon__soft" alt="Criatividade" />
-          <h2>Criatividade</h2>
-        </div>
-        <div>
-          <img src="/assets/empatia.svg" class="icon__soft" alt="Empatia" />
-          <h2>Empatia</h2>
-        </div>
-        <div>
-          <img src="/assets/analysis-find.svg" class="icon__soft" alt="Analista" />
-          <h2>Analista</h2>
-        </div>
-      </div>
-    </section>
-
-    <!-- HOBBIES -->
-    <section class="skillHobbies">
-      <div class="skillHobbies__titulo">
-        <h1>Hobbies</h1>
-      </div>
-      <div class="skillHobbies__cards">
-        <div>
-          <img src="/assets/headphone.svg" class="icon__hobbies" alt="Ouvir música" />
-          <h2>Ouvir música</h2>
-        </div>
-        <div>
-          <img src="/assets/game-controller.svg" class="icon__hobbies" alt="Games" />
-          <h2>Games</h2>
-        </div>
-        <div>
-          <img src="/assets/cozinhar.svg" class="icon__hobbies" alt="Cozinhar" />
-          <h2>Cozinhar</h2>
-        </div>
-        <div>
-          <img src="/assets/twitch.svg" class="icon__hobbies" alt="Assistir gameplays" />
-          <h2>Assistir <br> gameplays</h2>
-        </div>
-        <div>
-          <img src="/assets/mug.svg" class="icon__hobbies" alt="Cafeterias" />
-          <h2>Cafeterias</h2>
-        </div>
-        <div>
-          <img src="/assets/dices.svg" class="icon__hobbies" alt="RPG" />
-          <h2>RPG</h2>
-        </div>
-      </div>      
-    </section>
-  </section>
-
-  <!-- FORMACAO ACADEMICA -->
-  <section class="formacaoAcademica">    
-    <h1>Formação Acadêmica</h1>
-    <div class="formacaoAcademica__cards">
-      <div>
-        <img src="/assets/etepam.png" id="icon__etepam" alt="Escola Técnica Professor Agamenon Magalhães" />
-        <h1>Técnico em Manutenção e Suporte</h1>
-        <h2>ETEPAM - 2017</h2>
-      </div>
-      <div>
-        <img src="/assets/uninassau.png" id="icon__uninassau" alt="Faculdade Maurício de Nassau" />
-        <h1>Ciência da Cpmputação</h1>
-        <h2>UNINASSAU - Cursando 4º período</h2>
-      </div>
-      <div>
-        <img src="/assets/alura.png" id="alura" alt="Alura" />
-        <h1>Curso de Front-end</h1>
-        <h2>Oracle em parceria com Alura - 2024</h2>
-      </div>
-    </div>    
-  </section>
-
-  <!-- EXPERIENCIA -->
-  <section class="experiencia">
-    <div class="projeto1">
-      <img src="/assets/ecopontos.jpg" alt="Página inicial do site projeto Ecopontos" />
-      <div>
-        <h1>EcoPontos</h1>
-        <p>Projeto web para faculdade.</p>
-        <div>
-          <a href="https://github.com/CarlaMSLopes/EcoPontos-Web">Repositório</a>
-          <a href="https://eco-pontos-k946gg58b-carlamslopes-projects.vercel.app/">Ver demo</a>
-        </div>
-      </div>
-    </div>
-    <div class="projeto2">
-      <img src="/assets/decodificador.jpg" alt="Página inicial do decodificador" />
-      <div>
-        <h1>Decodificador</h1>
-        <p>Desafio do Alura.</p>
-        <div>
-          <a href="https://github.com/CarlaMSLopes/DesafioAlura">Repositório</a>
-          <a href="https://carlamslopes.github.io/DesafioAlura/">Ver demo</a>
-        </div>
-      </div>
-  </section>
-
-  <!-- CONTATO -->
-  <section class="contato">
-    <img src="" alt="" />
-    <div class="formulario">
-      <h1>Quer entrar em contato comigo?</h1>
+    <hr />
+    <!-- SOBRE MIM -->
+    <section class="sobre">
+      <h1>Sobre Mim</h1>
       <p>
-        Preencha o formulário ao lado e entrarei em contato o mais rápido
-        possível.
+        Olá! Sou Carla, uma iniciante de desenvolvimento front-end, com a missão
+        de criar experiências de usuário encantadoras.
       </p>
-      <form action="">
-        <label for="nome">Seu nome:</label>
-        <input type="text" id="nome" name="nome" />
-        <label for="sobrenome">Sobrenome:</label>
-        <input type="text" id="sobrenome" name="sobrenome" />
-        <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto" name="assunto" />
-        <label for="sobrenome">Mensagem:</label>
-        <textarea name="mensagem" id="mensagem">
-Escreva aqui sua mensagem!</textarea>
-        <input type="submit" value="Enviar!" />
-      </form>
-    </div>
-  </section>
+      <p>
+        Estou profundamente atraída pela arte e ciência do design de UI, unindo
+        estética e funcionalidade perfeitamente. Minha jornada é alimentada pelo
+        amor pela criação de interfaces visualmente atraentes e intuitivas que
+        cativam e envolvem os usuários.
+      </p>
+      <p>
+        Atualmente aprimorando minhas habilidades em HTML, CSS e JavaScript para
+        construir a base para minha jornada de desenvolvimento front-end.
+        Ansiosa por abraçar novas tecnologias e ficar à frente no mundo dinâmico
+        do desenvolvimento web.
+      </p>
+      <p>
+        Além do código, tenho prazer em explorar o reino das cores, da
+        tipografia e do layout, buscando constantemente inspiração para
+        aprimorar o apelo visual dos produtos digitais. Acredito no poder do
+        aprendizado perpétuo e da curiosidade. Cada desafio é uma oportunidade
+        de crescimento, e estou animada para abraçar a curva de aprendizado que
+        acompanha ser um desenvolvedor iniciante.
+      </p>
+    </section>
+    <hr />
+    <!-- SKILLS E HOBBIES -->
+    <section class="skills__hobbies__section">
+      <!-- HARD SKILLS -->
+      <section class="skillHobbies">
+        <div class="skillHobbies__titulo">
+          <h1>Hard Skills</h1>
+        </div>
+        <div class="skillHobbies__cards">
+          <div>
+            <img src="/assets/html.svg" class="icon__hard" alt="Html" />
+            <h2>Html</h2>
+          </div>
+          <div>
+            <img src="/assets/css.svg" class="icon__hard" alt="CSS" />
+            <h2>CSS</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/javascript.svg"
+              class="icon__hard"
+              alt="javascript"
+            />
+            <h2>JavaScript</h2>
+          </div>
+          <div>
+            <img src="/assets/react.svg" class="icon__hard" alt="React Js" />
+            <h2>ReactJS</h2>
+          </div>
+          <div>
+            <img src="/assets/mysql.svg" class="icon__hard" alt="MySql" />
+            <h2>MySql</h2>
+          </div>
+          <div>
+            <img src="/assets/node.svg" class="icon__hard" alt="Node Js" />
+            <h2>NodeJs</h2>
+          </div>
+        </div>
+      </section>
+      <hr class="hrteste"/>
+      <!-- SOFT SKILLS -->
+      <section class="skillHobbies">
+        <div class="skillHobbies__titulo">
+          <h1>Soft Skills</h1>
+        </div>
+        <div class="skillHobbies__cards">
+          <div>
+            <img
+              src="/assets/assertivo.svg"
+              class="icon__soft"
+              alt="Assertividade"
+            />
+            <h2>Assertividade</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/collaboration.svg"
+              class="icon__soft"
+              alt="Colaboração"
+            />
+            <h2>Colaboração</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/prioritization.svg"
+              class="icon__soft"
+              alt="Organização"
+            />
+            <h2>Organização</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/resourceful.svg"
+              class="icon__soft"
+              alt="Criatividade"
+            />
+            <h2>Criatividade</h2>
+          </div>
+          <div>
+            <img src="/assets/empatia.svg" class="icon__soft" alt="Empatia" />
+            <h2>Empatia</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/analysis-find.svg"
+              class="icon__soft"
+              alt="Analista"
+            />
+            <h2>Analista</h2>
+          </div>
+        </div>
+      </section>
+      <hr class="hrteste"/>
+      <!-- HOBBIES -->
+      <section class="skillHobbies">
+        <div class="skillHobbies__titulo">
+          <h1>Hobbies</h1>
+        </div>
+        <div class="skillHobbies__cards">
+          <div>
+            <img
+              src="/assets/headphone.svg"
+              class="icon__hobbies"
+              alt="Ouvir música"
+            />
+            <h2>Ouvir música</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/game-controller.svg"
+              class="icon__hobbies"
+              alt="Games"
+            />
+            <h2>Games</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/cozinhar.svg"
+              class="icon__hobbies"
+              alt="Cozinhar"
+            />
+            <h2>Cozinhar</h2>
+          </div>
+          <div>
+            <img
+              src="/assets/twitch.svg"
+              class="icon__hobbies"
+              alt="Assistir gameplays"
+            />
+            <h2>
+              Assistir <br />
+              gameplays
+            </h2>
+          </div>
+          <div>
+            <img src="/assets/mug.svg" class="icon__hobbies" alt="Cafeterias" />
+            <h2>Cafeterias</h2>
+          </div>
+          <div>
+            <img src="/assets/dices.svg" class="icon__hobbies" alt="RPG" />
+            <h2>RPG</h2>
+          </div>
+        </div>
+      </section>
+    </section>
+    <hr />
+    <!-- FORMACAO ACADEMICA -->
+    <section class="formacaoAcademica">
+      <h1>Formação Acadêmica</h1>
+      <div class="formacaoAcademica__cards">
+        <div>
+          <img
+            src="/assets/etepam.png"
+            id="icon__etepam"
+            alt="Escola Técnica Professor Agamenon Magalhães"
+          />
+          <h1>Técnico em Manutenção e Suporte</h1>
+          <h2>ETEPAM - 2017</h2>
+        </div>
+        <div>
+          <img
+            src="/assets/uninassau.png"
+            id="icon__uninassau"
+            alt="Faculdade Maurício de Nassau"
+          />
+          <h1>Ciência da Cpmputação</h1>
+          <h2>UNINASSAU - Cursando 4º período</h2>
+        </div>
+        <div>
+          <img src="/assets/alura.png" id="alura" alt="Alura" />
+          <h1>Curso de Front-end</h1>
+          <h2>Oracle em parceria com Alura - 2024</h2>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- PROJETO -->
+    <section class="projeto_exemplo">
+      <h1>Projetos</h1>
+      <section class="projeto">
+        <div class="imageDoProjeto">
+          <img
+            src="/assets/ecopontos.jpg"
+            alt="Imagem da landing page do projeto Ecopontos"
+          />
+        </div>
+        <div class="descricaoDoProjeto">
+          <div class="titulo__sobre">
+            <h1>EcoPontos</h1>
+            <p>Projeto para a faculdade</p>
+          </div>
+          <div class="botoes__links">
+            <a href="https://github.com/CarlaMSLopes/EcoPontos-Web"
+              >Repositório</a
+            >
+            <a
+              href="https://eco-pontos-k946gg58b-carlamslopes-projects.vercel.app/"
+              >Ver demo</a
+            >
+          </div>
+        </div>
+      </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <h1>Desenvolvido por Carla Lopes - 2024</h1>
-    <div class="icons">
-      <a href=""><img src="" alt="" /></a>
-      <a href=""><img src="" alt="" /></a>
-      <a href=""><img src="" alt="" /></a>
-      <a href=""><img src="" alt="" /></a>
-    </div>
-  </footer>
-  <script src="/app.js"></script>
-</body>
+      <section class="projeto reverseProjeto">
+        <div class="imageDoProjeto">
+          <img
+            src="/assets/decodificador.jpg"
+            alt="Imagem do site decodificador"
+          />
+        </div>
+        <div class="descricaoDoProjeto descricaoDoProjeto__reverse">
+          <div class="titulo__sobre__reverse">
+            <h1>Decodificador</h1>
+            <p>Decodificador de texto Alura</p>
+          </div>
+          <div class="botoes__links botoes__links__reverse">
+            <a href="https://github.com/CarlaMSLopes/DesafioAlura"
+              >Repositório</a
+            >
+            <a href="https://carlamslopes.github.io/DesafioAlura/">Ver demo</a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <hr />
+    <!-- CONTATO -->
+    <section class="contato">
+      <img src="/assets/img.png" class="imageSide" alt="" />
+      <div class="formulario">
+        <h1>Quer entrar em contato comigo?</h1>
+        <p>
+          Preencha o formulário ao lado e entrarei em contato o mais rápido
+          possível.
+        </p>
+        <form action="">
+          <label for="nome">Seu nome:</label>
+          <input type="text" id="nome" name="nome" />
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" id="sobrenome" name="sobrenome" />
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto" />
+          <label for="sobrenome">Mensagem:</label>
+          <textarea name="mensagem" id="mensagem">
+Escreva aqui sua mensagem!</textarea
+          >
+          <input type="submit" value="Enviar!" />
+        </form>
+      </div>
+    </section>
 
+    <!-- FOOTER -->
+    <footer>
+      <h1>Desenvolvido por Carla Lopes - 2024</h1>
+      <div class="icons">
+        <a href=""><img src="" alt="" /></a>
+        <a href=""><img src="" alt="" /></a>
+        <a href=""><img src="" alt="" /></a>
+        <a href=""><img src="" alt="" /></a>
+      </div>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
 </html>

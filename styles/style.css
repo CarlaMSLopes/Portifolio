@@ -1,6 +1,6 @@
 /* IMPORTACOES */
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* VARIAVEIS */
 :root {
@@ -9,7 +9,7 @@
   --base-lesslight: #FCECFB;
   --hover-color: #ff0082;
   --font-tittle: "Playwrite DE Grund", cursive;
-  --font-text: "Nunito", sans-serif;
+  --font-text: "Rubik", sans-serif;
 }
 
 /* GERAL */
@@ -19,9 +19,9 @@
 }
 
 body {
-  margin: 0 144px;
+  margin: 0 120px;
   padding-top: 3%;
-  background-color: var(--base-light);
+  background-color: white;
   transition: 0.5s;
 }
 
@@ -41,7 +41,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  width: 70%;
+  width: 60%;
 }
 
 .navbar ul {
@@ -53,18 +53,18 @@ body {
 }
 
 /* HERO */
-
 .cta__texto h1 {
   font-family: var(--font-tittle);
-  font-size: 56px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 1.3em;
   color: var(--base-dark);
   letter-spacing: 2px;
 }
+
 .cta__texto p {
   font-family: var(--font-text);
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.3em;
   color: var(--base-dark);
@@ -74,10 +74,11 @@ body {
 .linksContatos ul {
   font-family: var(--font-text);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--base-dark);
   letter-spacing: 2px;
 }
+
 .linksContatos ul li a:hover {
   color: var(--hover-color);
 }
@@ -86,38 +87,42 @@ body {
   width: 24px;
 }
 .heroImagem {
-  width: 448px;
+  width: 344px;
 }
 
 /* SOBRE MIM */
 .sobre {
-  width: 100%;
+  width: 80%;
 }
+
 .sobre h1 {
   font-family: var(--font-tittle);
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--base-dark);
   letter-spacing: 2px;
-  text-align: center;
+  text-align: start;
 }
+
 .sobre p {
   font-family: var(--font-text);
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--base-dark);
   line-height: 1.3em;
   letter-spacing: 2px;
-  text-align: center;
+  text-align: start;
 }
 
 /* SKILLS E HOBBIES */
 .skills__hobbies__section {
   width: 100%;
 }
+
 .skillHobbies {
   width: 100%;
 }
+
 .skillHobbies__titulo h1 {
   font-family: var(--font-tittle);
   font-size: 24px;
@@ -125,17 +130,20 @@ body {
   color: var(--base-dark);
   letter-spacing: 3px;
 }
+
 .skillHobbies__cards {
   width: 100%;
 }
+
 .skillHobbies__cards div {
   background-color: var(--base-light);
   /* border: solid 1px var(--base-dark); */
   border-radius: 8px;
   width: 152px;
   height: 152px;
-  background-color: var(--base-lesslight);
+  background-color: var(--base-light);
 }
+
 .skillHobbies__cards div h2 {
   font-family: var(--font-text);
   font-size: 16px;
@@ -144,12 +152,15 @@ body {
   letter-spacing: 3px;
   text-align: center;
 }
+
 .icon__hard {
   width: 48px;
 }
+
 .icon__soft {
   width: 56px;
 }
+
 .icon__hobbies {
   width: 48px;
 }
@@ -158,6 +169,7 @@ body {
 .formacaoAcademica {
   width: 100%;
 }
+
 .formacaoAcademica h1 {
   font-family: var(--font-tittle);
   font-size: 24px;
@@ -165,9 +177,11 @@ body {
   color: var(--base-dark);
   letter-spacing: 3px;
 }
+
 .formacaoAcademica__cards {
   width: 100%;
 }
+
 .formacaoAcademica__cards div h1 {
   font-family: var(--font-tittle);
   font-size: 16px;
@@ -176,14 +190,16 @@ body {
   letter-spacing: 3px;
   text-align: center;
 }
+
 .formacaoAcademica__cards div h2 {
   font-family: var(--font-tittle);
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--base-dark);
   letter-spacing: 3px;
   text-align: center;
 }
+
 .formacaoAcademica__cards div {
   background-color: var(--base-light);
   /* border: solid 1px var(--base-dark); */
@@ -191,27 +207,139 @@ body {
   width: 304px;
   height: 304px;
   padding: 2%;
-  background-color: var(--base-lesslight);
   line-height: 1.3em;
 }
+
 #icon__uninassau {
   width: 210px;
 }
+
 #icon__etepam {
   width: 120px;
 }
+
 #icon__alura {
   width: 200px;
 }
-.imagemteste {
+
+/* PROJETO */
+.projeto_exemplo {
+  width: 100%;
+}
+
+.projeto_exemplo h1 {
+  font-family: var(--font-tittle);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.imageDoProjeto img{
+  width: 696px;
+  height: 280px;
+  border: solid 2px var(--base-lesslight);
+  border-radius: 24px;
+}
+
+.projeto{
+  width: 100%;
+}
+
+.descricaoDoProjeto {
+  width: 50%;
+}
+
+.titulo__sobre h1 {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: start;
+}
+
+.titulo__sobre__reverse h1 {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: end;
+}
+
+.titulo__sobre p {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: start;
+}
+
+.titulo__sobre__reverse p {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--base-dark);
+  letter-spacing: 3px;
+  text-align: start;
+}
+
+.botoes__links {
+  width: 100%;
+}
+.botoes__links a {
+  width: 128px;
+  height: 40px;
+  border-radius: 8px;
+  border: solid 1px var(--base-dark);
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.botoes__links a:hover {
+  border: solid 1px var(--hover-color);
+  color: var(--hover-color);
+  background-color: var(--base-lesslight) ;
+}
+
+/*CONTATO*/
+.imageSide {
+  width: 600px;
+  border-radius: 32px;
+  border: solid 2px var(--base-light);
+}
+
+
+
+hr {
+  border-top: 1px solid var(--base-lesslight);
+}
+
+.hrteste {
+  border-top: 4px solid var(--base-light);
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* .imagemteste {
   filter: invert(100%);
 }
 
 .imagemteste:hover {
   filter: invert(17%) sepia(91%) saturate(7464%) hue-rotate(320deg)
     brightness(96%) contrast(110%);
-}
-
-div {
-  display: block;
-}
+} */

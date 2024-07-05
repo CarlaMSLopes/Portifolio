@@ -1,15 +1,15 @@
 /* DARK - LIGHT MODE */
 .trilho {
-    width: 64px;
-    height: 32px;
+    width: 48px;
+    height: 24px;
     border-radius: 32px;
     background-color: var(--base-dark);
     position: relative;
     cursor: pointer;
   }
   .trilho .indicador {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     transform: scale(0.8);
     background-color: var(--base-light);
@@ -24,7 +24,7 @@
     background-color: var(--hover-color);
   }
   .trilho.dark .indicador {
-    left: 32px;
+    left: 24px;
     background-color: var(--base-dark);
   }
   .trilho.dark{
@@ -32,4 +32,15 @@
   }
   body.dark{
     background-color: var(--base-dark);
+  }
+
+  /* Dark mode, header */
+  .logo.dark {
+    color: var(--base-light);
+  }
+  .logo_h1.dark{
+    color: var(--base-light);
+  }
+  .iconImg.dark {
+    filter: invert(100%);
   }
