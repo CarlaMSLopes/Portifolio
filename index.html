@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/flexbox.css" />
     <link rel="stylesheet" href="/styles/darkMode.css" />
+    <link rel="stylesheet" href="/styles/responsividade.css">
   </head>
 
   <body>
@@ -294,8 +295,8 @@
             id="icon__uninassau"
             alt="Faculdade Maurício de Nassau"
           />
-          <h1>Ciência da Cpmputação</h1>
-          <h2>UNINASSAU - Cursando 4º período</h2>
+          <h1>Ciência da Computação</h1>
+          <h2>Uninassau - Cursando 4º período</h2>
         </div>
         <div>
           <img src="/assets/alura.png" id="alura" alt="Alura" />
@@ -357,13 +358,13 @@
     <!-- CONTATO -->
     <section class="contato">
       <img src="/assets/img.png" class="imageSide" alt="" />
-      <div class="formulario">
+      <div class="formulario" id="formulario">
         <h1>Quer entrar em contato comigo?</h1>
         <p>
           Preencha o formulário ao lado e entrarei em contato o mais rápido
           possível.
         </p>
-        <form action="">
+        <form action="" class="formBox" id="formBox">
           <label for="nome">Seu nome:</label>
           <input type="text" id="nome" name="nome" />
           <label for="sobrenome">Sobrenome:</label>
@@ -371,18 +372,18 @@
           <label for="assunto">Assunto:</label>
           <input type="text" id="assunto" name="assunto" />
           <label for="sobrenome">Mensagem:</label>
-          <textarea name="mensagem" id="mensagem">
-Escreva aqui sua mensagem!</textarea
+          <textarea name="textArea" class="textArea" id="textArea" placeholder="Escreva aqui sua mensagem!">
+</textarea
           >
-          <input type="submit" value="Enviar!" />
+          <button class="botaoEnviar" id="botaoEnviar">Enviar</button>         
         </form>
       </div>
     </section>
-
+<hr>
     <!-- FOOTER -->
     <footer>
       <h1>Desenvolvido por Carla Lopes - 2024</h1>
-      <div class="icons">
+      <div class="icons" id="icons">
         <a href=""><img src="" alt="" /></a>
         <a href=""><img src="" alt="" /></a>
         <a href=""><img src="" alt="" /></a>

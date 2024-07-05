@@ -5,8 +5,8 @@
 /* VARIAVEIS */
 :root {
   --base-dark: black;
-  --base-light: #fbe5e5;
-  --base-lesslight: #FCECFB;
+  --base-light: #ffd1fb;
+  --base-lesslight: rgb(241, 177, 215);
   --hover-color: #ff0082;
   --font-tittle: "Playwrite DE Grund", cursive;
   --font-text: "Rubik", sans-serif;
@@ -107,7 +107,7 @@ body {
 .sobre p {
   font-family: var(--font-text);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--base-dark);
   line-height: 1.3em;
   letter-spacing: 2px;
@@ -142,6 +142,7 @@ body {
   width: 152px;
   height: 152px;
   background-color: var(--base-light);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .skillHobbies__cards div h2 {
@@ -149,7 +150,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   color: var(--base-dark);
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -204,10 +205,11 @@ body {
   background-color: var(--base-light);
   /* border: solid 1px var(--base-dark); */
   border-radius: 8px;
-  width: 304px;
-  height: 304px;
+  width: 288px;
+  height: 240px;
   padding: 2%;
   line-height: 1.3em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #icon__uninassau {
@@ -241,6 +243,7 @@ body {
   height: 280px;
   border: solid 2px var(--base-lesslight);
   border-radius: 24px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .projeto{
@@ -290,6 +293,7 @@ body {
 .botoes__links {
   width: 100%;
 }
+
 .botoes__links a {
   width: 128px;
   height: 40px;
@@ -302,6 +306,7 @@ body {
   letter-spacing: 2px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .botoes__links a:hover {
@@ -312,19 +317,123 @@ body {
 
 /*CONTATO*/
 .imageSide {
-  width: 600px;
+  width: 480px;
   border-radius: 32px;
   border: solid 2px var(--base-light);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.contato {
+  width: 100%;
+}
 
+.formulario {
+  width: 50%;
+  height: 504px;
+}
 
+.formulario h1 {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 2px;
+  text-align: start;
+}
+
+.formulario p {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--base-dark);
+  letter-spacing: 2px;
+  text-align: start;
+}
+
+.formBox label {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--base-dark);
+  letter-spacing: 2px;
+  text-align: start;
+}
+
+.formBox input {
+  width: 504px;
+  height: 32px;
+  border-radius: 8px;
+  border: solid 2px var(--base-lesslight);
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.formBox input:hover {
+  border: solid 2px var(--hover-color);
+  background-color: var(--base-light);
+}
+
+.textArea {
+  width: 496px; 
+  height: 104px; 
+  border: 2px solid var(--base-lesslight);
+  border-radius: 8px;
+  font-family: var(--font-text);
+  font-size: 16px; 
+  line-height: 1.3em; 
+  color:var(--base-dark);
+  background-color: white;
+  resize: vertical;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+  outline: none; 
+  padding: 1%;
+}
+
+.textArea:hover {
+  border: solid 2px var(--hover-color);
+  background-color: var(--base-light);
+}
+
+.botaoEnviar {
+  width: 200px; 
+  height: 48px; 
+  border: 2px solid var(--base-lesslight);
+  border-radius: 8px;
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 16px; 
+  line-height: 1.3em; 
+  color:var(--base-dark);
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.botaoEnviar:hover {
+  border: solid 2px var(--hover-color);
+  background-color: var(--base-light);
+}
+
+/* RODAPÉ */
+footer {
+  width: 100%;
+  background-color: var(--base-light);
+}
+footer h1 {
+  font-family: var(--font-text);
+  font-weight: 600;
+  font-size: 14px; 
+  line-height: 1.3em; 
+  color:rgb(63, 63, 63);
+  text-align: center;
+}
+/* Separadores */
 hr {
-  border-top: 1px solid var(--base-lesslight);
+  border-top: 1px solid rgb(230, 205, 222);
 }
 
 .hrteste {
-  border-top: 4px solid var(--base-light);
+  border-top: 1px solid rgb(230, 205, 222);
   width: 100%;
 }
 

@@ -131,7 +131,7 @@ header {
 .formacaoAcademica__cards div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 16px;
 }
@@ -208,4 +208,13 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: 16px;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 8px;
 }
